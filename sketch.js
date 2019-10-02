@@ -35,6 +35,12 @@ function mouseClicked(){          //quan cliquem amb el mouse fem un "reset"
   ok=0;
 }
 
+function deviceShaken(){
+  obj1 = new Rombe(220,220,300);
+  obj2 = new Rombe(270,220,300);
+  ok=0;
+}
+
 class Rombe{              //classe principal dels dos rombes
   constructor(ox,oy,m){   //ox i oy son les coordenades inicials
     this.eixx = ox;       
